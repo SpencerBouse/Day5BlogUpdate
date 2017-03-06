@@ -1,0 +1,118 @@
+body{
+  background-color: grey;
+  font-family: 'Fjalla One', sans-serif;
+  background-image: url("https://media.giphy.com/media/iF3M9gPPCdulq/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bgimage{
+  background-image: url("http://vignette1.wikia.nocookie.net/spaceghost/images/b/bc/Vlcsnap-2013-01-13-21h56m12s232.png/revision/latest?cb=20130114030358");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -460px;
+  width:100%;
+  height: 250px;
+}
+#bgimage div{
+  width:17%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#bgimage img{
+width:100%;
+height:100%;
+}
+
+#container{
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #000;
+  color:#fff;
+  box-shadow: 0 0 200px #fff;
+  margin-top: -30px;
+  position: relative;
+}
+.left{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 150px;
+  text-align: left;
+  margin-left: 20px;
+}
+.left h4{
+  margin-top: 50px;
+}
+.left p{
+}
+.tad{
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -45px;
+}
+.right{
+  display: inline-block;
+  margin-left: 50px;
+  text-align: left;
+  line-height:35px;
+}
+.chad{
+  width:100%;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 13px #fff;
+}
+.alert{
+  background-color: white;
+  position: fixed;
+  color: black;
+  display: inline-block;
+  right: 0px;
+  bottom: 100px;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid lightGrey;
+  width: 15%;
+  height: 50px;
+}
+.alert img{
+  width: 100%;
+  display: inline-block;
+  width: 30%;
+  border: 1px solid black;
+  vertical-align: top;
+}
+.alert p{
+  width: 60%;
+  display: inline-block;
+  margin: 0 0 0 5px;
+
+}
+a{
+  text-decoration: none;
+  color:#fff;
+  transition: .2s;
+}
+a:hover{
+  border-bottom: 3px solid #fff;
+}
+@media screen and (max-width: 900px) {
+  #container{
+    width: 100%;
+  }
+  .leftf{
+    width: 100%;
+  }
+  .right{
+    width:100%;
+  }
+}
